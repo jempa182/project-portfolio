@@ -1,0 +1,31 @@
+/* ProjectSection.css */
+
+.project-section {
+  background-color: rgb(205, 239, 227);
+  margin: 0;
+  padding: 1px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  margin: 64px;
+  padding: 0; 
+}
+
+.project-image {
+  width:100%;
+}
+
+.project-title {
+  text-align: left;
+}
+
+.project-info {
+  color:black;
+  text-align: left;
+}
