@@ -1,9 +1,9 @@
 // ProjectImage.jsx
 
-export const ProjectImage = () => {
+export const ProjectImage = ({ project }) => {
   return (
     <div>
-      <img className="project-image" src="https://plus.unsplash.com/premium_photo-1670513727240-792add6f13e0" alt="project-image" />
+      <img src={project.image} alt={project.name} className="project-image" />
     </div>
   )
 }

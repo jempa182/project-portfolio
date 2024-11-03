@@ -6,7 +6,7 @@ import { TechInfo } from './TechInfo.jsx'
 export const TechSection = () => {
   return (
     <div className="tech-section">
-      <h3>TECH YEAH</h3>
+      <h2 className="section-title">Tech</h2>
       <TechInfo />
     </div>
   )

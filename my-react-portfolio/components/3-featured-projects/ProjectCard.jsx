@@ -2,12 +2,14 @@
 
 import { ProjectImage } from './ProjectImage.jsx'
 import { ProjectInfo } from './ProjectInfo.jsx'
+import { ProjectButtons } from './ProjectButtons.jsx'
 
-export const ProjectCard = () => {
+export const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
-      <ProjectImage />
-      <ProjectInfo />
+      <ProjectImage project={project} />
+      <ProjectInfo project={project} />
+      <ProjectButtons />
     </div>
   )
 }

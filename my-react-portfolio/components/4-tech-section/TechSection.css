@@ -1,13 +1,16 @@
+/* TechSection.css */
+
 .tech-section {
-  display:flex;
+  width: 100%;
+  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: auto 0;
-  background-color: rgb(186, 163, 209);
+  align-items: center;
+  padding: 64px 24px;
 }
 
 .tech-info {
-  text-align:center;
+  text-align: center;
   max-width: 600px;
+  width: 100%;
 }
-
