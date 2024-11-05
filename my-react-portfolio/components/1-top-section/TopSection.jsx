@@ -6,9 +6,14 @@ import { ProfileInfo } from './ProfileInfo.jsx'
 
 export const TopSection = () => {
   return (
+    <div class="top-section-wrapper">
     <div className ="top-section">
-        <ProfileInfo />
-        <ProfileImage />
-        </div>
+      <ProfileInfo />
+    </div>
+
+    <div className="profile-img-section">
+      <ProfileImage />
+    </div>
+    </div>
   );
 };

@@ -43,3 +43,11 @@ p {
   font-weight: 400;
   margin:0;
 }
+
+
+/* Tablet and Desktop */
+@media (min-width: 667px) {
+  .tech-skills {
+    font-size: 30px;
+  }
+}

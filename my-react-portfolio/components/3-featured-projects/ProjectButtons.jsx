@@ -1,10 +1,23 @@
 // ProjectButtons.jsx
-
-export const ProjectButtons = () => {
+export const ProjectButtons = ({ netlifyLink, githubLink }) => {
   return (
     <div className="project-buttons">
-      <button class="btn netlify">Live demo</button>
-      <button class="btn github">View Code</button>
+      <a 
+        href={netlifyLink} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="btn netlify"
+      >
+        Live demo
+      </a>
+      <a 
+        href={githubLink} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="btn github"
+      >
+        View Code
+      </a>
     </div>
   )
 }

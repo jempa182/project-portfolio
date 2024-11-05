@@ -9,7 +9,10 @@ export const ProjectCard = ({ project }) => {
     <div className="project-card">
       <ProjectImage project={project} />
       <ProjectInfo project={project} />
-      <ProjectButtons />
+      <ProjectButtons 
+        netlifyLink={project.netlify}
+        githubLink={project.github}
+      />
     </div>
   )
 }

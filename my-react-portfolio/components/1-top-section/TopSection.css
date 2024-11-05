@@ -8,12 +8,95 @@
   padding: 64px 24px 24px 24px;
 }
 
+.profile-img-section {
+  display: flex;
+  flex-direction: row;
+  margin: 16px;
+}
+
 .profile-image {
-  border-radius: 50%;
+  width: 90%;
+  flex-shrink: 0;
+  border-radius:50%;
+  object-fit:cover;
   display:block;
-  width: 100%
+  margin: 0 auto;
 }
 
 .profile-info {
   width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin: 40px 0 0 0;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Alignment classes */
+.social-icons-left {
+  justify-content: flex-start;
+}
+
+/* Tablet */
+@media (min-width: 667px) and (max-width: 1023px) {
+  .profile-image {
+    width:100%;
+    max-width: 400px; /* Ensure it doesn't get too large */
+    aspect-ratio: 1 / 1; /* Maintain square shape */
+  }
+
+  .profile-img-section {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .top-section-wrapper {
+    display: flex;
+    flex-direction: row; /* Changed to row to place items side by side */
+    justify-content: space-between; /* Creates space between text and image */
+    align-items: center; /* Vertically centers the content */
+    max-width: 1200px; /* Optional: limits maximum width */
+    margin: 0 auto; /* Centers the wrapper */
+    padding: 64px 24px;
+  }
+
+  .top-section {
+    flex: 1; /* Takes up available space */
+    max-width: 50%; /* Ensures text doesn't take too much space */
+    padding: 0; /* Remove padding since it's handled by wrapper */
+  }
+
+  .profile-img-section {
+    width: auto; /* Remove fixed width */
+    margin: 0; /* Remove margin */
+    display: flex;
+    justify-content: flex-end; /* Aligns image to the right */
+  }
+  
+  .profile-image {
+    width: 400px; /* Set specific width for desktop */
+    height: 400px; /* Maintain aspect ratio */
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .profile-info {
+    width: 100%; /* Allow text to fill available space */
+  }
 }

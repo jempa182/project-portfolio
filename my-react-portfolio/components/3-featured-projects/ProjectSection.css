@@ -34,13 +34,13 @@ body {
 }
 
 .project-card {
-  min-width: 300px; /* Change width to min-width */
+  min-width: 300px;
   max-width: 300px;
-  flex: 0 0 auto; /* Prevent cards from stretching */
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  text-align: left;
+  gap: 16px; /* Add consistent spacing between elements */
+  padding-bottom: 16px; /* Add some bottom padding */
 }
 
 .project-image {
@@ -65,8 +65,9 @@ body {
 
 .btn {
   padding: 12px 32px;
-  width:300px;
+  width:100%;
   border-radius: 12px;
+  text-decoration: none;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
@@ -92,4 +93,131 @@ body {
 
 .btn.github:hover {
   background-color: #FFF1EB;
+}
+
+/* ProjectSection.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* overflow-x: hidden; Prevents horizontal scrolling */
+}
+
+.project-section {
+  width: 100%;
+}
+
+.project-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 0px 0 0 24px;
+  padding-bottom: 20px; /* Space for scrollbar */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  scrollbar-width: thin; /* Firefox */
+}
+
+ /* Hide scrollbar for Chrome/Safari/Opera */
+ &::-webkit-scrollbar {
+  height: 8px;
+}
+
+.project-card {
+  min-width: 300px;
+  max-width: 300px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Add consistent spacing between elements */
+  padding-bottom: 16px; /* Add some bottom padding */
+}
+
+.project-image {
+  width:100%;
+  object-fit:cover;
+  aspect-ratio: 1 / 1;
+}
+
+.project-title {
+  text-align: left;
+}
+
+.project-info {
+  color:black;
+  text-align: left;
+}
+
+.button-section {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 12px 32px;
+  width:100%;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 8px 0px 8px 0px;
+}
+
+.btn.netlify {
+  background-color: #F27630;
+  color: white;
+  border: none;
+}
+
+.btn.netlify:hover {
+  background-color: #E06520;
+}
+
+.btn.github {
+  background-color: transparent;
+  color: #F27630;
+  border: 2px solid #F27630;
+}
+
+.btn.github:hover {
+  background-color: #FFF1EB;
+}
+
+/* Tablet */
+@media (min-width: 667px) {
+  .project-card {
+    min-width: 400px;
+    max-width: 400px;
+    flex: 0 0 400px; /* This is important - sets flex-basis to 400px */
+  }
+
+  .project-container {
+    padding: 0 24px 20px 24px; /* Adjust padding for larger cards */
+    gap: 64px; /* Optionally increase gap for better spacing */
+  }
+
+  /* Ensure image scales properly */
+  .project-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  /* Adjust button width to match new card width */
+  .btn {
+    width: 100%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  
 }

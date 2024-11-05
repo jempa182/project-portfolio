@@ -17,3 +17,7 @@ html, body {
   width: 100%;
   overflow-x: hidden;
 }
+
+button {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
