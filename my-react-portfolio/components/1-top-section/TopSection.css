@@ -1,5 +1,6 @@
 /* TopSection.css */
 
+/* Mobile-first base styles */
 .top-section {
   display: flex;
   flex-direction: column;
@@ -14,12 +15,13 @@
   margin: 16px;
 }
 
+/* Circular profile image container */
 .profile-image {
   width: 90%;
   flex-shrink: 0;
-  border-radius:50%;
-  object-fit:cover;
-  display:block;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
   margin: 0 auto;
 }
 
@@ -27,6 +29,7 @@
   width: 100%;
 }
 
+/* Social media icons layout */
 .social-icons {
   display: flex;
   gap: 24px;
@@ -44,17 +47,16 @@
   transform: scale(1.1);
 }
 
-/* Alignment classes */
 .social-icons-left {
   justify-content: flex-start;
 }
 
-/* Tablet */
+/* Tablet layout (667px - 1023px) */
 @media (min-width: 667px) and (max-width: 1023px) {
   .profile-image {
-    width:100%;
-    max-width: 400px; /* Ensure it doesn't get too large */
-    aspect-ratio: 1 / 1; /* Maintain square shape */
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1 / 1;
   }
 
   .profile-img-section {
@@ -64,39 +66,39 @@
   }
 }
 
-/* Desktop */
+/* Desktop layout (1024px and above) */
 @media (min-width: 1024px) {
   .top-section-wrapper {
     display: flex;
-    flex-direction: row; /* Changed to row to place items side by side */
-    justify-content: space-between; /* Creates space between text and image */
-    align-items: center; /* Vertically centers the content */
-    max-width: 1200px; /* Optional: limits maximum width */
-    margin: 0 auto; /* Centers the wrapper */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 64px 24px;
   }
 
   .top-section {
-    flex: 1; /* Takes up available space */
-    max-width: 50%; /* Ensures text doesn't take too much space */
-    padding: 0; /* Remove padding since it's handled by wrapper */
+    flex: 1;
+    max-width: 50%;
+    padding: 0;
   }
 
   .profile-img-section {
-    width: auto; /* Remove fixed width */
-    margin: 0; /* Remove margin */
+    width: auto;
+    margin: 0;
     display: flex;
-    justify-content: flex-end; /* Aligns image to the right */
+    justify-content: flex-end;
   }
   
   .profile-image {
-    width: 400px; /* Set specific width for desktop */
-    height: 400px; /* Maintain aspect ratio */
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     border-radius: 50%;
   }
 
   .profile-info {
-    width: 100%; /* Allow text to fill available space */
+    width: 100%;
   }
 }
