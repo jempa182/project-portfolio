@@ -3,6 +3,7 @@
   padding: 64px 24px;
   display: flex;
   justify-content: center;
+  background-color: #2E2E35;
 }
 
 .skills-container {
@@ -32,6 +33,7 @@
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 24px;
+  color: white;
 }
 
 .skill-category ul {
@@ -44,7 +46,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   line-height: 2;
-  color: #333;
+  color: white;
 }
 
 .divider {
