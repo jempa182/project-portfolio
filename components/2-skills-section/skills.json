@@ -1,14 +1,21 @@
 {
   "skillCategories": [
     {
-      "title": "Code",
+      "title": "Frontend",
       "skills": [
         "HTML5",
         "CSS3",
         "Javascript ES6",
         "React",
         "Styled Components",
-        "GitHub"
+        "Tailwind",
+        "Git"
+      ]
+    },
+    {
+      "title": "Backend",
+      "skills": [
+        "Node.js"
       ]
     },
     {
@@ -21,12 +28,6 @@
         "Figma",
         "Keynote",
         "Slack"
-      ]
-    },
-    {
-      "title": "Upcoming",
-      "skills": [
-        "Node.js"
       ]
     },
     {

@@ -1,6 +1,5 @@
 /* ProjectSection.css  */
 
-/* Reset styles */
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +15,7 @@ body {
 /* Main section layout */
 .project-section {
   width: 100%;
+  background-color: #F5F7EF;
 }
 
 /* Horizontal scrolling container */
@@ -53,6 +53,7 @@ body {
 
 .project-title {
   text-align: left;
+  color: black;
 }
 
 .project-info {
@@ -64,6 +65,13 @@ body {
 .button-section {
   display: flex;
   gap: 16px;
+}
+
+/* Button styles */
+.project-buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 16px 0;
 }
 
 .btn {
@@ -109,7 +117,7 @@ body {
   }
 
   .project-container {
-    padding: 0 24px 20px 24px;
+    padding: 0 24px 24px 24px;
     gap: 64px;
   }
 

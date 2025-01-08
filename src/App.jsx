@@ -6,20 +6,21 @@ import { TopSection } from '../components/1-top-section/TopSection.jsx'
 import { SkillsSection } from '../components/2-skills-section/SkillsSection.jsx'
 import { ProjectSection } from '../components/3-featured-projects/ProjectSection.jsx'
 import { TechSection } from '../components/4-tech-section/TechSection.jsx'
-import { BlogSection } from '../components/5-blog-section/BlogSection.jsx'
+// import { BlogSection } from '../components/5-blog-section/BlogSection.jsx'
 import { FooterSection } from '../components/6-footer-section/FooterSection.jsx'
-
+import { NavSection } from '../components/0-nav-section/NavSection.jsx'
 
 function App() {
 
   return (
     <>
       <main>
+        <NavSection />
         <TopSection />
         <SkillsSection />
         <ProjectSection />
         <TechSection />
-        <BlogSection />
+        {/* <BlogSection /> */}
         <FooterSection />
       </main>
     </>

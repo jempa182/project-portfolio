@@ -1,80 +1,92 @@
 {
   "projects": [
     {
-      "name": "Chatbot",
-      "id": "chatbot1",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "name": "Todo app",
+      "id": "todo-app",
+      "image": "./src/assets/todo-app.png",
       "tags": [
         "HTML5",
         "CSS3",
-        "JavaScript"
+        "React",
+        "Zustand"
       ],
-      "netlify": "https://www.netlify.com/",
-      "github": "https://github.com/"
+      "netlify": "https://everyday-to-do.netlify.app/",
+      "github": "https://github.com/jempa182/project-to-dos-zustand-vite"
     },
     {
-      "name": "Weather app",
-      "id": "weather-app1",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
+      "name": "Happy Thoughts App",
+      "id": "happy-thoughts",
+      "image": "https://plus.unsplash.com/premium_photo-1681488007344-c75b0cf8b0cd?q=80&w=3580&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "React"
+      ],
+      "netlify": "https://happythoughtsapp-byjenny.netlify.app/",
+      "github": "https://github.com/jempa182/project-happy-thoughts-vite"
+    },
+    {
+      "name": "What's the weather?",
+      "id": "weather-app",
+      "image": "https://plus.unsplash.com/premium_photo-1669809948017-518b5d800d73?q=80&w=3459&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "React",
+        "API"
+      ],
+      "netlify": "https://whats-the-weather-jenny.netlify.app/",
+      "github": "https://github.com/jempa182/project-weather-app"
+    },
+    {
+      "name": "Music Releases",
+      "id": "music-releases",
+      "image": "https://plus.unsplash.com/premium_photo-1682125765650-8a7baa2d4bf4?q=80&w=3729&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "React"
+      ],
+      "netlify": "https://new-music-app-jenny.netlify.app/",
+      "github": "https://github.com/jempa182/project-music-releases-vite"
+    },
+    {
+      "name": "Movies App",
+      "id": "movies-app",
+      "image": "./src/assets/movies-app.png",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript",
-        "APIs"
+        "React"
       ],
-      "netlify": "https://www.netlify.com/",
-      "github": "https://github.com/"
+      "netlify": "https://binge-all-movies.netlify.app",
+      "github": "https://github.com/jempa182/project-movies-vite"
     },
     {
-      "name": "Chatbot",
-      "id": "chatbot2",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "name": "The French Bot",
+      "id": "french-bot",
+      "image": "./src/assets/french-bot.png",
       "tags": [
         "HTML5",
         "CSS3",
-        "JavaScript"
+        "React",
+        "OpenAI"
       ],
-      "netlify": "https://www.netlify.com/",
-      "github": "https://github.com/"
+      "netlify": "https://thefrenchbot.netlify.app/",
+      "github": "https://github.com/jempa182/project-chatbot"
     },
     {
-      "name": "Weather app 2",
-      "id": "weather-app2",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
+      "name": "Binge App",
+      "id": "binge-app",
+      "image": "./src/assets/binge-app.png",
       "tags": [
         "HTML5",
         "CSS3",
-        "JavaScript",
-        "APIs"
+        "React"
       ],
-      "netlify": "https://www.netlify.com/",
-      "github": "https://github.com/"
-    },
-    {
-      "name": "Weather app 3",
-      "id": "weather-app3",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "APIs"
-      ],
-      "netlify": "https://www.netlify.com/",
-      "github": "https://github.com/"
-    },
-    {
-      "name": "Weather app 5",
-      "id": "weather-app4",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "APIs"
-      ],
-      "netlify": "https://www.netlify.com/",
-      "github": "https://github.com/"
+      "netlify": "https://binge-streaming-business-site.netlify.app/",
+      "github": "https://github.com/jempa182/project-business-site"
     }
   ]
 }

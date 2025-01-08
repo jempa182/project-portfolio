@@ -4,6 +4,7 @@ main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: #E8D9EE;
 }
 
 :root {
@@ -26,6 +27,7 @@ h2 {
 .section-title {
   text-align: center;
   margin: 64px 0 64px 0;
+  color:black;
 }
 
 h3 {

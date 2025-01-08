@@ -1,0 +1,12 @@
+/* NavSection.css */
+
+.nav-section {
+  max-height: 100px;
+  background-color: #F3863F;
+}
+
+.logo {
+  display: block;
+  max-height: 75px;
+  margin: 0 0 0px 15px;
+}
