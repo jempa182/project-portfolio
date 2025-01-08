@@ -1,5 +1,5 @@
 // ProfileImage.jsx
-import profileImage from '../../src/assets/jenny-profile.jpg'
+import profileImage from '/assets/jenny-profile.jpg'
 
 export const ProfileImage = () => {
   return (

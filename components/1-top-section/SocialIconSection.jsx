@@ -1,9 +1,9 @@
 // SocialIconSection.jsx
 import './TopSection.css'
-import linkedinIcon from '../../src/assets/icons/Btn-linkedin.svg'
-import githubIcon from '../../src/assets/icons/Btn-github.svg'
-import stackoverflowIcon from '../../src/assets/icons/Btn-stackoverflow.svg'
-import instagramIcon from '../../src/assets/icons/Btn-instagram.svg'
+import linkedinIcon from '/assets/icons/Btn-linkedin.svg'
+import githubIcon from '/assets/icons/Btn-github.svg'
+import stackoverflowIcon from '/assets/icons/Btn-stackoverflow.svg'
+import instagramIcon from '/assets/icons/Btn-instagram.svg'
 
 export const SocialIconSection = ({ className }) => {
   return (

@@ -1,7 +1,7 @@
 // NavSection.jsx
 
 import './NavSection.css'
-import logo from '../../src/assets/placeholder-logo.svg'
+import logo from '/assets/jenny-logo.png'
 
 export const NavSection = () => {
   return (

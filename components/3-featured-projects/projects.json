@@ -3,7 +3,8 @@
     {
       "name": "Todo app",
       "id": "todo-app",
-      "image": "./src/assets/todo-app.png",
+      "image": "/assets/todo-app.png",
+      "description": "A To do app using Zustand for state management.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -17,6 +18,7 @@
       "name": "Happy Thoughts App",
       "id": "happy-thoughts",
       "image": "https://plus.unsplash.com/premium_photo-1681488007344-c75b0cf8b0cd?q=80&w=3580&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Practiced React state skills by fetching and posting data to an API, building a project where you can post and share happy thoughts.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -29,6 +31,7 @@
       "name": "What's the weather?",
       "id": "weather-app",
       "image": "https://plus.unsplash.com/premium_photo-1669809948017-518b5d800d73?q=80&w=3459&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A weather dashboard that uses a weather API to tell today's weather and temperature and a 4-day forecast.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -42,6 +45,7 @@
       "name": "Music Releases",
       "id": "music-releases",
       "image": "https://plus.unsplash.com/premium_photo-1682125765650-8a7baa2d4bf4?q=80&w=3729&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A project to practice React and creating components that will use data from Spotify.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -53,7 +57,8 @@
     {
       "name": "Movies App",
       "id": "movies-app",
-      "image": "./src/assets/movies-app.png",
+      "image": "/assets/movies-app.png",
+      "description": "A multi-page React application displaying movies from an API.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -66,7 +71,8 @@
     {
       "name": "The French Bot",
       "id": "french-bot",
-      "image": "./src/assets/french-bot.png",
+      "image": "/assets/french-bot.png",
+      "description": "A functional chatbot interface using JavaScript, HTML, and CSS. Creating a chatbot that can interact with users that wants to learn French.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -79,7 +85,8 @@
     {
       "name": "Binge App",
       "id": "binge-app",
-      "image": "./src/assets/binge-app.png",
+      "image": "/assets/binge-app.png",
+      "description": "The task was to create a business one-pager website that contains an image or video header and a signup form.",
       "tags": [
         "HTML5",
         "CSS3",

@@ -8,11 +8,13 @@ export const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
       <ProjectImage project={project} />
-      <ProjectInfo project={project} />
-      <ProjectButtons 
-        netlifyLink={project.netlify}
-        githubLink={project.github}
-      />
+      <div className="project-content">
+        <ProjectInfo project={project} />
+        <ProjectButtons 
+          netlifyLink={project.netlify}
+          githubLink={project.github}
+        />
+      </div>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-/* ProjectSection.css  */
+/* ProjectSection.css */
 
 * {
   margin: 0;
@@ -41,8 +41,16 @@ body {
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 16px;
   padding-bottom: 16px;
+  min-height: 580px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  padding: 16px 0;
 }
 
 .project-image {
@@ -54,11 +62,16 @@ body {
 .project-title {
   text-align: left;
   color: black;
+  margin-bottom: 8px;
 }
 
 .project-info {
   color: black;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-grow: 1;
 }
 
 /* Button styles */
@@ -71,7 +84,8 @@ body {
 .project-buttons {
   display: flex;
   flex-direction: column;
-  padding: 0 0 16px 0;
+  width: 100%;
+  margin-top: 16px;
 }
 
 .btn {
@@ -88,7 +102,7 @@ body {
 
 /* Live demo button */
 .btn.netlify {
-  background-color: #F27630;
+  background-color: #F3863F;
   color: white;
   border: none;
 }
@@ -100,8 +114,8 @@ body {
 /* View code button */
 .btn.github {
   background-color: transparent;
-  color: #F27630;
-  border: 2px solid #F27630;
+  color: #F3863F;
+  border: 2px solid #F3863F;
 }
 
 .btn.github:hover {
@@ -114,6 +128,7 @@ body {
     min-width: 400px;
     max-width: 400px;
     flex: 0 0 400px;
+    min-height: 650px;
   }
 
   .project-container {
@@ -125,5 +140,13 @@ body {
     width: 100%;
     height: 300px;
     object-fit: cover;
+  }
+
+  .project-content {
+    padding: 24px 0;
+  }
+
+  .project-info {
+    gap: 12px;
   }
 }

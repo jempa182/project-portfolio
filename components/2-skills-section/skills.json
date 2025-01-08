@@ -9,36 +9,43 @@
         "React",
         "Styled Components",
         "Tailwind",
-        "Git"
+        "Accessibility"
       ]
     },
     {
       "title": "Backend",
       "skills": [
-        "Node.js"
+        "Node.js",
+        "Mongo DB",
+        "Express.js",
+        "Building APIs",
+        "PHP",
+        "MySQL"
       ]
     },
     {
       "title": "Toolbox",
       "skills": [
-        "Atom",
+        "VS Code",
         "Postman",
+        "Git",
+        "Figma",
         "Adobe Photoshop",
         "Adobe Illustrator",
-        "Figma",
-        "Keynote",
+        "Adobe After Effects",
         "Slack"
       ]
     },
     {
       "title": "More",
       "skills": [
-        "Branding",
-        "Strategy",
-        "Process Design",
-        "Concept",
-        "Development",
-        "Agile methodology"
+        "CMS systems",
+        "Digital Design",
+        "Web design",
+        "Agile methodology",
+        "Illustration",
+        "Motion Graphics",
+        "Video editing"
       ]
     }
   ]
