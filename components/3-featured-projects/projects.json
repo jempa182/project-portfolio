@@ -1,18 +1,18 @@
 {
   "projects": [
     {
-      "name": "Print shop",
+      "name": "Artist shop",
       "id": "jenny-printshop",
-      "image": "/assets/todo-app.png",
-      "description": "For my final project at Technigo I created an online shop for my artwork",
+      "image": "/assets/jenny-prints.jpg",
+      "description": "For my final project at Technigo I created an online shop for my artwork.",
       "tags": [
         "HTML5",
         "CSS3",
         "React",
         "Node.js"
       ],
-      "netlify": "https://everyday-to-do.netlify.app/",
-      "github": "https://github.com/jempa182/project-to-dos-zustand-vite"
+      "netlify": "https://jenny-a.netlify.app/",
+      "github": "https://github.com/jempa182/project-final"
     },
     {
       "name": "Todo app",
